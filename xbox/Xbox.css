@@ -2,6 +2,8 @@
 body{
 	margin: 0;
 	font-family: segoe UI;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 .navbardiv{
 	display: flex;
@@ -53,11 +55,10 @@ body{
 .part1div2{
 	display: flex;
 	background-color: #2CA243;
-	margin-top: 84px;
-	font-size: 64px;
 	padding: 104px 50px 104px 80px ;
 	text-align: start;
-	
+	margin-top: 84px;
+	font-size: 64px;
 }
 .part1div2 img{
 	width: 100%;
