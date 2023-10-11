@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+}
+.navbardiv{
+	display: flex;
+	background-color: black;
+	height: 120px;
+}
+.navbardiv .navbarxbox{
+	align-items: flex-start;
+	align-self: center
+	
+}
+.navbardiv img{
+	width: 264px;
+	height: 74px;
+	
+}
+.nvright{
+	margin-left: auto;
+	align-self: center;
+	margin-right: 8px;
+}
+.nvright img{
+	height: 100%;
+	width: 100%;
+}
+.navimg{
+	margin-top:16px; 
+	margin-bottom: 16px; 
+	margin-left:8px;
+	margin-right:8px
+}
+.navimg img{
+	height: 100%;
+	width: 100%;
+}
