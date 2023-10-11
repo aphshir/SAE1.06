@@ -5,8 +5,10 @@ body {
 	margin: 0;
 }
 nav{
+	padding: 15px;
 	background-color: black;
 	margin: 0;
+	overflow: hidden;
 }
 nav ol{
 	list-style-type: none;
@@ -18,4 +20,12 @@ nav ol li{
 	display: inline-block;
 	list-style-position: inside;
 	text-align: center
+}
+.navright{
+	float: right;
+	padding: 15px;
+
+}
+.navleft{
+	float: left;
 }
