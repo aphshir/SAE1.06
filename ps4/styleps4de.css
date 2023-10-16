@@ -16,8 +16,8 @@ body{
 	
 }
 .navbardiv img{
-	width: 264px;
-	height: 74px;
+	width: 100%;
+	height: 100%;
 	
 }
 .nvright{
@@ -26,8 +26,8 @@ body{
 	margin-right: 8px;
 }
 .nvright img{
-	height: 100%;
-	width: 100%;
+	height: 264px;
+	width: 74px;
 }
 .navimg{
 	margin-top:16px; 
