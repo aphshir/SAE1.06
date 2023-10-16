@@ -13,7 +13,7 @@ body{
 .navbardiv .navbarps4{
 	align-items: flex-start;
 	align-self: center ;
-	margin: 8px auto 8px 23px;
+	margin: 11px auto 11px 23px;
 	
 }
 .navbardiv img{
@@ -36,3 +36,7 @@ body{
 	margin-left:8px;
 	margin-right:8px
 }
+.ps5logo{
+margin: 11px 26px 11px auto;
+}
+
