@@ -10,7 +10,7 @@ body{
 	background-color: black;
 	height: 120px;
 }
-.navbardiv .navbarxbox{
+.navbardiv .navbarps4{
 	align-items: flex-start;
 	align-self: center
 	
@@ -38,31 +38,4 @@ body{
 .navimg img{
 	height: 100%;
 	width: 100%;
-}
-.imgautofit img{
-	height: 100%;
-	width: 100%;
-}
-.part1div1 {
-	background-color: #151517;
-	padding: 56px 76px 171px 76px;
-	margin: -4px;
-	color: white;
-	text-align: center;
-	font-size: 128px;
-	
-}
-.part1div2{
-	display: flex;
-	background-color: #2CA243;
-	padding: 104px 50px 104px 80px ;
-	text-align: start;
-	margin-top: 84px;
-	font-size: 64px;
-}
-.part1div2 img{
-	width: 100%;
-	height: 100%;
-	display : block;
-    margin : auto;
 }
