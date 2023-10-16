@@ -12,7 +12,8 @@ body{
 }
 .navbardiv .navbarps4{
 	align-items: flex-start;
-	align-self: center
+	align-self: center ;
+	margin: 8px auto 8px 23px;
 	
 }
 .navbardiv img{
