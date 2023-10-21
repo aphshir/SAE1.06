@@ -1,4 +1,6 @@
-@font-face {font-family: XBOX Original; src: url('fonts/);}
+@font-face {font-family: 'PSBOLD'; src: url("fonts/PsBold-2Oy2w.ttf");}
+@font-face {font-family: 'PSOLD'; src: url("fonts/PsOld-vmPMD.ttf");}
+@font-face {font-family: 'TANSEEK MODERN PRO ARABIC'; src: url("fonts/tanseek-modern-pro-arabic.ttf");}
 body{
 	margin: 0;
 	font-family: segoe UI;
@@ -39,4 +41,13 @@ body{
 .Intro{
 	background-color: #1A2888;
 }
-
+.titre{
+	font-family: PSBOLD;
+	font-size: 75px;
+	text-align: center;
+}
+.slogan{
+	font-family: PSOLD;
+	font-size: 75px;
+	text-align: center;
+}
