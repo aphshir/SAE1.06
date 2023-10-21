@@ -1,4 +1,4 @@
-@font-face {font-family: XBOX Original; src: url('fonts/XboxOriginalBold-YzPYy.ttf');}
+@font-face {font-family: XBOX Original; src: url('fonts/);}
 body{
 	margin: 0;
 	font-family: segoe UI;
@@ -36,5 +36,7 @@ body{
 	margin-left:8px;
 	margin-right:8px
 }
-
+.Intro{
+	background-color: #1A2888;
+}
 
