@@ -46,9 +46,15 @@ body{
 	font-size: 75px;
 	text-align: center;
 	margin: 0 auto auto auto;
+	color: #AEBFD4
 }
 .slogan{
 	font-family: PSOLD;
 	font-size: 75px;
 	text-align: center;
+}
+p{
+	font-family: TANSEEK MODERN PRO ARABIC;
+	font-size: 80px;
+	color: white;
 }
