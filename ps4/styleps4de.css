@@ -43,14 +43,14 @@ body{
 }
 .titre{
 	font-family: PSBOLD;
-	font-size: 75px;
+	font-size: 100px;
 	text-align: center;
 	margin: 0 auto auto auto;
 	color: #AEBFD4
 }
 .slogan{
 	font-family: PSOLD;
-	font-size: 75px;
+	font-size: 60px;
 	text-align: center;
 }
 p{
