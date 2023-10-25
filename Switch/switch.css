@@ -1,15 +1,16 @@
 body{
 	margin: 0;
+	padding: 0;
 	font-family: segoe UI;
 	max-width: 100%;
-    overflow-x: hidden;
+    	overflow-x: hidden;
 }
 .navbardiv{
 	display: flex;
 	background-color: black;
 	height: 120px;
 }
-.navbardiv .navbarps4{
+.navbardiv .navbarswitch{
 	align-items: flex-start;
 	align-self: center ;
 	margin: 11px auto 25px 23px;
@@ -33,5 +34,26 @@ body{
 	margin-top:16px; 
 	margin-bottom: 16px; 
 	margin-left:8px;
-	margin-right:8px
+	margin-right:8px;
+}
+.navimg ps5logo{
+	height: 80px;
+	width: 80px;
+}
+.navimg{
+	height: 74px;
+	width: 74px;
+}
+.rouge{
+	width: 50%;
+	float: left;
+	backgroud-color: red; 
+	margin: 0%;
+}
+}
+.bleu{
+	width: 50%;
+	float: right;
+	backgroud-color: blue;
+	margin: 0%;
 }
