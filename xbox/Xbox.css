@@ -1,53 +1,65 @@
 @font-face {font-family: XBOX Original; src: url('fonts/XboxOriginalBold-YzPYy.ttf');}
 @font-face {font-family: segoe UI; src:url('fonts/segoeui.ttf');}
+@font-face {font-family: segoe UI; src: url("fonts/segoeuib.ttf"); font-weight: bold}
+/* défini les paramètres de base + enlève la marge de base du body*/
 body{
 	margin: 0;
 	font-family: segoe UI;
 	max-width: 100%;
     overflow-x: hidden;
 }
+/*évite le surlignement sur les images*/
 img{
 	user-select: none;
 }
+/*div de la nav bar*/
 .navbardiv{
 	display: flex;
 	background-color: black;
 	height: 120px;
 }
+/*défini le flex à l'interieur de la navbar*/
 .navbardiv .navbarxbox{
 	align-items: flex-start;
 	align-self: center
 	
 }
+/*taille des images de la navbar*/
 .navbardiv img{
 	width: 264px;
 	height: 74px;
 	
 }
+/*permet de forcer les éléments de la navbar sur la droite*/
 .nvright{
 	margin-left: auto;
 	align-self: center;
 	margin-right: 8px;
 }
+/*resize l'image à 100%*/
 .nvright img{
 	height: 100%;
 	width: 100%;
 }
+/*marges des images de la navbar*/
 .navimg{
 	margin-top:16px; 
 	margin-bottom: 16px; 
 	margin-left:8px;
 	margin-right:8px
 }
+/*resize l'image à 100%*/
 .navimg img{
 	height: 100%;
 	width: 100%;
 }
+/*resize l'image à 100%*/
 .imgautofit img{
 	height: 100%;
 	width: 100%;
 	user-select: none;
 }
+/*permier div de la première partie (le gris)*/
 .part1div1 {
 	background-color: #151517;
 	padding: 56px 76px 171px 76px;
@@ -57,31 +69,115 @@ img{
 	font-size: 128px;
 	
 }
+/*deuxième div de la première partie (le vert qui est dans le gris)*/
 .part1div2{
 	display: flex;
 	background-color: #2CA243;
 	padding: 104px 50px 104px 80px ;
 	text-align: start;
 	margin-top: 84px;
-	font-size: 2vw;
-	/*word-break: break-all;*/
-	hyphens: manual;
+	font-size: 2vw;/*limite la taille de la police à la taille de l'écran*/
+	hyphens: manual;/*permet de briser les mots et d'ajouter des tirerts afin de le lier à la prochaine ligne*/
 }
+/*paramètre de l'image de l'xbox*/
 .part1div2 img{
 	width: 40vw;
 	height: 92,14vh;
 	display : block;
     margin : auto;
 }
+/*patrie 2*/
 .divpart2div1{
+ 	display: flex;
+ 	flex-direction: column;/*crée un flex en ligne*/
+ 	margin-left: 140px;
+ 	margin-right: 140px;
+	font-size: 1.5vw
 
 }
-.divpart2div2{
-
-}
+/*partie ou l'image est à droite*/
 .divpart2div2right{
+	display: flex; 
+	flex-direction: row; 
+	align-items: center; 
+	justify-content: center;
+	margin-bottom: 111px;
+}
+/*crée une marge à gauche*/
+.divpart2div2right img{
+	margin-left: 83px
+}
+/*partie ou l'image est à gauche*/
+.divpart2div2left{
+	display: flex; 
+	flex-direction: row; 
+	align-items: center; 
+	justify-content: center;
+	margin-bottom: 111px;
 
 }
-.divpart2div2left{
-
+/*crée une marge à droite*/
+/**/
+.divpart2div2left img{
+	margin-right: 83px
+}
+/*partie 3*/
+.div3{
+	background-color: #107C10;
+	text-align: center;
+	font-size: 64px;
+	padding: 6.666666666666667vw 20.193340494092375vh;
+}
+/* le div noir qui entoure l'image du jeu*/
+.gamecase{
+	background-color: black;
+	padding: 10px 10px 6px 10px;
+	color: white;
+	font-size: 36px;
+}
+/*défini la grille du display des jeux*/ 
+.grid{
+	display: grid;
+	grid-gap: 7vw;
+}
+/* emplacement des jeux sur la grille
+__________
+|AA|AB|AC|
+|BA|BB|BC|
+----------
+*/
+.AA{
+	grid-column: 1;
+	grid-row: 1;
+}
+.AB{
+	grid-column: 2;
+	grid-row: 1;
+}
+.AC{
+	grid-column: 3;
+	grid-row: 1;
+}
+.BA{
+	grid-column: 1;
+	grid-row: 2;
+}
+.BB{
+	grid-column: 2;
+	grid-row: 2;
+}
+.BC{
+	grid-column: 3;
+	grid-row: 2;
+}
+footer{
+	padding: 43px 251px;
+}
+.footdiv{
+	display: flex;
+	align-content: center;
+}
+.footdiv img{
+	display: block;
+	margin: auto;
 }
