@@ -64,9 +64,18 @@ figcaption{
 	background-color: #2E393D;
 	max-width: 480px;
 }
-.column {
+.colonnepro, .colonneslim {
 	float: left;
 	padding: 5px;
+  }
+  .colonnepro{
+	margin: auto 1% 380px 1%;
+  }
+  .colonneslim{
+	margin: auto 1% 400px 1%;
+  }
+  #imgslim{
+	padding-bottom: 60px;
   }
 .row::after {
 	content: "";
@@ -91,6 +100,60 @@ figcaption{
 #JE{
 	color: white;
 	font-family: TANSEEK MODERN PRO ARABIC;
-	font-size: 215px;
+	font-size: 150px;
 	text-align: center;
+}
+.FF7{
+    position: absolute;
+    width: 600px;
+    height: 748px;
+	top: 2269px;
+	left: 19px;
+    background-image: url('images/FF7.jpg');
+    background-size: cover;
+	background-color: #526879;
+    background-position: 50% 50%;
+}
+
+.rectff7{
+    position: absolute;
+    width: 600px;
+    height: 85px;
+	top:685px;
+    background-color: #a4bcfc;
+}
+.txtff7, .txtuc4, .txthzd{
+	color: black;
+	font-family: TANSEEK MODERN PRO ARABIC;
+    font-size: 50px;
+    text-align: center;
+}
+.txtff7{
+    position: relative;
+    top: 690px;
+    left: 3px;
+}
+
+.UC4{
+	position: absolute;
+	width: 600px;
+	height: 748px;
+	top: 2269px;
+	left: 644px;
+	background-image: url('images/UC4.jpg');
+	background-size: cover;
+	background-color: #526879;
+	background-position: 50% 50%;
+}
+.rectuc4{
+	position: absolute;
+	top: 685px;
+	height: 85px;
+	width: 600px;
+	background-color: #A4BCFC;
+}
+.txtuc4{
+	position: relative;
+	top: 690px;
+	left: 30px;
 }
