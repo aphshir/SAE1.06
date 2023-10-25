@@ -53,8 +53,16 @@ body{
 	font-size: 60px;
 	text-align: center;
 }
+
 p{
 	font-family: TANSEEK MODERN PRO ARABIC;
 	font-size: 80px;
 	color: white;
+}
+.txtpro{
+	background-color: #2E393D;
+	margin: auto 1600px auto 148px;
+}
+.imgpro{
+	margin: auto auto auto 148px;
 }
