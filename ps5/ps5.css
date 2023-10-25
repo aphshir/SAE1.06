@@ -157,5 +157,18 @@ body{
 	color: #000000;
 	font-size: 50px;
 	text-align: center;
-  }
+}
+
+.rectangle3{
+	position: absolute;
+	width: 1920px;
+	height: 1275px;
+	top: 1634px;
+	left: 0;
+	background-color: #6d81b4;
+}
+
+.spécification{
+	
+}
 
