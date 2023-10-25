@@ -51,7 +51,7 @@ img{
 .part1div1 {
 	background-color: #151517;
 	padding: 56px 76px 171px 76px;
-	margin: -4px;
+	margin-top: -4vw;
 	color: white;
 	text-align: center;
 	font-size: 128px;
@@ -68,8 +68,8 @@ img{
 	hyphens: manual;
 }
 .part1div2 img{
-	width: 30vw;
-	height: 82,14vh;
+	width: 40vw;
+	height: 92,14vh;
 	display : block;
     margin : auto;
 }
