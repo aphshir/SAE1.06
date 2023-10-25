@@ -1,9 +1,13 @@
 @font-face {font-family: XBOX Original; src: url('fonts/XboxOriginalBold-YzPYy.ttf');}
+@font-face {font-family: segoe UI; src:url('fonts/segoeui.ttf');}
 body{
 	margin: 0;
 	font-family: segoe UI;
 	max-width: 100%;
     overflow-x: hidden;
+}
+img{
+	user-select: none;
 }
 .navbardiv{
 	display: flex;
@@ -42,6 +46,7 @@ body{
 .imgautofit img{
 	height: 100%;
 	width: 100%;
+	user-select: none;
 }
 .part1div1 {
 	background-color: #151517;
