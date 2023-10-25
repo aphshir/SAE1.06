@@ -170,13 +170,16 @@ __________
 	grid-column: 3;
 	grid-row: 2;
 }
+/* défini le style du footer*/
 footer{
 	padding: 43px 251px;
 }
+/*classe pour le div footer*/
 .footdiv{
 	display: flex;
 	align-content: center;
 }
+/*rezise les images*/
 .footdiv img{
 	display: block;
 	margin: auto;

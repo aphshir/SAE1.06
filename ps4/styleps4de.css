@@ -3,7 +3,6 @@
 @font-face {font-family: 'TANSEEK MODERN PRO ARABIC'; src: url("fonts/tanseek-modern-pro-arabic.ttf");}
 body{
 	margin: 0;
-	font-family: segoe UI;
 	max-width: 100%;
     overflow-x: hidden;
 }
@@ -40,6 +39,7 @@ body{
 }
 .Intro{
 	background-color: #1A2888;
+	margin-bottom: -220px;
 }
 .titre{
 	font-family: PSBOLD;
@@ -58,6 +58,7 @@ p, figcaption{
 	font-family: TANSEEK MODERN PRO ARABIC;
 	font-size: 80px;
 	color: white;
+	
 }
 figcaption{
 	background-color: #2E393D;
@@ -86,5 +87,10 @@ figcaption{
 }
 .Jeux{
 	background-color: #526879;
-	padding-top: 15px;
+}
+#JE{
+	color: white;
+	font-family: TANSEEK MODERN PRO ARABIC;
+	font-size: 215px;
+	text-align: center;
 }

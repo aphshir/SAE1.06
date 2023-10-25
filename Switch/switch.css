@@ -47,13 +47,28 @@ body{
 .rouge{
 	width: 50%;
 	float: left;
-	backgroud-color: red; 
+	background-color: red; 
 	margin: 0%;
 }
+.rouge .i img{
+	width: 400px;
+	height: 140px
+}
+.rouge .i1 img{
+	width: 760px;
+	height: 350px
+}
+.rouge .i3 img{
+	width: 600px;
+	height: 745px
 }
 .bleu{
 	width: 50%;
 	float: right;
-	backgroud-color: blue;
+	background-color: #20B8D2;
 	margin: 0%;
+}
+.bleu .t img{
+	width: 800px;
+	height: 140px
 }
