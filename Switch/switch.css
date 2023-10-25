@@ -39,13 +39,13 @@ body{
 .rouge{
 	width: 50%;
 	float: left;
-	backgroud-color: #FF0000; 
+	backgroud-color: red; 
 	margin: 0%;
 }
 }
 .bleu{
 	width: 50%;
 	float: right;
-	backgroud-color: #20B8D2;
+	backgroud-color: blue;
 	margin: 0%;
 }
