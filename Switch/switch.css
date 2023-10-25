@@ -36,6 +36,14 @@ body{
 	margin-left:8px;
 	margin-right:8px;
 }
+.navimg ps5logo{
+	height: 74px;
+	width: 74px;
+}
+.navimg{
+	height: 74px;
+	width: 74px;
+}
 .rouge{
 	width: 50%;
 	float: left;
