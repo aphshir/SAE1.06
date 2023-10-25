@@ -13,7 +13,7 @@ body{
 	background-color: rgb(255, 255, 255);
 	height: 120px;
 }
-.navbardiv .navbarps4{
+.navbardiv .navbarps5{
 	align-items: flex-start;
 	align-self: center ;
 	margin: 11px auto 25px 23px;
@@ -256,3 +256,158 @@ body{
 	top: 239px;
 	left: 50px; 
 }
+
+.boite4 {
+	position: absolute;
+	width: 1866px;
+	height: 946px;
+	top: 2929px;
+	left: 27px;
+  }
+  
+.boite5 {
+	position: absolute;
+	width: 1866px;
+	height: 942px;
+	top: 0;
+	left: 0;
+  }
+  
+.boite6 {
+	position: absolute;
+	width: 1866px;
+	height: 860px;
+	top: 0;
+	left: 0;
+  }
+  
+.titrejeux {
+	position: absolute;
+	width: 905px;
+	top: 0;
+	left: 480px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 70px;
+	text-align: center;
+  }
+  
+.rectangle-6 {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 142px;
+	left: 1266px;
+	object-fit: cover;
+  }
+  
+.rectangle-7 {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 138px;
+	left: 0;
+	object-fit: cover;
+  }
+  
+.rectangle-8 {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 142px;
+	left: 633px;
+	object-fit: cover;
+  }
+  
+.horizon {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 856px;
+	left: 0;
+	background-color: #a4bcfc;
+  }
+  
+.texthorizon {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 35px;
+	text-align: center;
+  }
+  
+.ff {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 860px;
+	left: 1266px;
+	background-color: #a4bcfc;
+  }
+  
+.textff {
+	position: absolute;
+	top: 0px;
+	left: 70px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 31px;
+	text-align: center;
+  }
+  
+.spman {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 860px;
+	left: 633px;
+	background-color: #a4bcfc;
+  }
+  
+.textspman {
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 33px;
+	text-align: center;
+  }
+
+.boite8 {
+	position: absolute;
+	width: 1920px;
+	height: 326px;
+	top: 3925px;
+	left: 0;
+	background-color: #6d81b4;
+  }
+  
+.titrelimites {
+	position: absolute;
+	top: 12px;
+	left: 611px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 70px;
+	text-align: center;;
+  }
+  
+.textlimites {
+	position: absolute;
+	top: 131px;
+	left: 16px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+  }
+  
