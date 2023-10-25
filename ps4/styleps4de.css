@@ -54,15 +54,37 @@ body{
 	text-align: center;
 }
 
-p{
+p, figcaption{
 	font-family: TANSEEK MODERN PRO ARABIC;
 	font-size: 80px;
 	color: white;
 }
-.txtpro{
+figcaption{
 	background-color: #2E393D;
-	margin: auto 1600px auto 148px;
+	max-width: 480px;
 }
-.imgpro{
-	margin: auto auto auto 148px;
+.column {
+	float: left;
+	padding: 5px;
+  }
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+.TexteIntro__image{
+	float: left;
+}
+.TexteIntro__text{
+	display: inline;
+}
+#pspro, #psslim{
+	font-size: 60px;
+}
+#psslim{
+	max-width: 650px;
+}
+.Jeux{
+	background-color: #526879;
+	padding-top: 15px;
 }
