@@ -159,7 +159,7 @@ body{
 	text-align: center;
 }
 
-.rectangle3{
+.boite {
 	position: absolute;
 	width: 1920px;
 	height: 1275px;
@@ -167,8 +167,92 @@ body{
 	left: 0;
 	background-color: #6d81b4;
 }
-
-.spécification{
-	
+  
+.specifications {
+	position: absolute;
+	width: 902px;
+	top: 39px;
+	left: 499px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 70px;
+	text-align: center;
 }
+  
+.boite2 {
+	position: absolute;
+	width: 843px;
+	height: 734px;
+	top: 239px;
+	left: 1077px;
+  }
+  
+.rectangle-3 {
+	position: absolute;
+	width: 733px;
+	height: 734px;
+	top: 0;
+	left: 55px;
+	background-color: #a4bcfc;
+  }
+  
+.titrechiffres {
+	position: absolute;
+	top: 89px;
+	left: 210px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 50px;
+	text-align: center;
+}
+  
+.detailspecs {
+	position: absolute;
+	width: 843px;
+	top: 206px;
+	left: 0;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 35px;
+	text-align: center;
+}
+  
+.boite3 {
+	position: absolute;
+	width: 1825px;
+	height: 174px;
+	top: 1056px;
+	left: 40px;
+  }
+  
+.rectangle-4 {
+	position: absolute;
+	width: 1825px;
+	height: 167px;
+	top: 0;
+	left: 0;
+	background-color: #a4bcfc;
+  }
+  
+.textconcluspec {
+	position: absolute;
+	width: 1825px;
+	top:0px;
+	left: 0;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 35px;
+	text-align: center;
+  }
 
+  .spec{
+	position: absolute;
+	width: 920px;
+	height: 734px;
+	top: 239px;
+	left: 50px; 
+}
