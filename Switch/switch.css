@@ -1,8 +1,9 @@
 body{
 	margin: 0;
+	padding: 0;
 	font-family: segoe UI;
 	max-width: 100%;
-    overflow-x: hidden;
+    	overflow-x: hidden;
 }
 .navbardiv{
 	display: flex;
@@ -33,5 +34,18 @@ body{
 	margin-top:16px; 
 	margin-bottom: 16px; 
 	margin-left:8px;
-	margin-right:8px
+	margin-right:8px;
+}
+.rouge{
+	width: 50%;
+	float: left;
+	backgroud-color: #FF0000; 
+	margin: 0%;
+}
+}
+.bleu{
+	width: 50%;
+	float: right;
+	backgroud-color: #20B8D2;
+	margin: 0%;
 }
