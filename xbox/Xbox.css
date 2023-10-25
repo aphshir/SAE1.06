@@ -63,11 +63,13 @@ img{
 	padding: 104px 50px 104px 80px ;
 	text-align: start;
 	margin-top: 84px;
-	font-size: 64px;
+	font-size: 5vh;
+	/*word-break: break-all;*/
+	hyphens: manual;
 }
 .part1div2 img{
-	width: 100%;
-	height: 100%;
+	width: 40vw;
+	height: 102,14vh;
 	display : block;
     margin : auto;
 }
