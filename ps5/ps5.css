@@ -1,1 +1,174 @@
+@font-face {
+	font-family: PS-Bold;
+	src: url(fonts/PsBold-2Oy2w.ttf);
+}
+body{
+	margin: 0;
+	font-family: segoe UI;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+.navbardiv{
+	display: flex;
+	background-color: rgb(255, 255, 255);
+	height: 120px;
+}
+.navbardiv .navbarps4{
+	align-items: flex-start;
+	align-self: center ;
+	margin: 11px auto 25px 23px;
+	
+}
+.navbardiv img{
+	width: 100%;
+	height: 100%;
+	
+}
+.nvright{
+	margin-left: auto;
+	align-self: center;
+	margin-right: 8px;
+}
+.nvright img{
+	height: 74px;
+	width: 264px;
+}
+.navimg{
+	margin-top:16px; 
+	margin-bottom: 16px; 
+	margin-left:8px;
+	margin-right:8px
+}
+
+.main{
+	background-color: #aeb5c7;
+	display: flex;
+	width: 1920px;
+	height: 4251px;
+	position: relative;
+}
+
+.firsttitre{
+	position: absolute;
+	width: 670px;
+	top: 35px;
+	left: 600px;
+	font-family: "PS-Bold", Helvetica;
+	font-weight: 700;
+	color: black;
+	font-size: 45px;
+}
+
+.ps5debout{
+	position: absolute;
+	width: 666px;
+	height: 375px;
+	top: 200px;
+	left: 297px; 
+}
+
+.slogan{
+	position: absolute;
+	width: 649px;
+	top: 320px;
+	left: 1015px;
+	font-family: "PS-Bold", Helvetica;
+	font-weight: 700;
+	color: black;
+	font-size: 70px;
+}
+
+.rectangle-1{
+	position: absolute;
+	width: 1920px;
+	height: 301px;
+	top: 650px;
+	background-color: #6d81b4;
+}
+
+.titredetails{
+	position: absolute;
+	width: 1831px;
+	top: 570px;
+	left: 44px;
+	font-weight: 400;
+	color: black;
+	font-size: 70px;
+	text-align: center;
+}
+
+.textdetails{
+	position: absolute;
+	width: 1785px;
+	top: 700px;
+	left: 57px;
+	font-weight: 400;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+
+.shcase{
+	position: absolute;
+	width: 651px;
+	height: 590px;
+	top: 1003px;
+	left: 212px;
+	background-image: url(./images/showcase.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.rectangle-2{
+	position: absolute;
+	width: 651px;
+	height: 223px;
+	top: 367px;
+	left: 0;
+	background-color: #a4bcfc;
+}
+
+.textshcase{
+	position: absolute;
+	top: 417px;
+	left: 167px;
+	font-weight: 400px;
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+
+.sortie {
+	position: absolute;
+	width: 651px;
+	height: 590px;
+	top: 1003px;
+	left: 1077px;
+	background-image: url(images/sortie.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.textsortie {
+	position: absolute;
+	top: 417px;
+	left: 101px;
+	font-weight: 400;
+	color: #000000;
+	font-size: 50px;
+	text-align: center;
+}
+
+.rectangle3{
+	position: absolute;
+	width: 1920px;
+	height: 1275px;
+	top: 1634px;
+	left: 0;
+	background-color: #6d81b4;
+}
+
+.spécification{
+	
+}
 
