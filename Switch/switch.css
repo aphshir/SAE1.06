@@ -47,7 +47,7 @@ body{
 .rouge{
 	width: 50%;
 	float: left;
-	backgroud-color: red; 
+	background-color: red; 
 	margin: 0%;
 }
 .rouge .i img{
@@ -65,7 +65,7 @@ body{
 .bleu{
 	width: 50%;
 	float: right;
-	backgroud-color: blue;
+	background-color: #20B8D2;
 	margin: 0%;
 }
 .bleu .t img{
