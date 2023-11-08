@@ -1,0 +1,147 @@
+@font-face {font-family: 'PSBOLD'; src: url("fonts/PsBold-2Oy2w.ttf");}
+@font-face {font-family: 'PSOLD'; src: url("fonts/PsOld-vmPMD.ttf");}
+@font-face {font-family: 'TANSEEK MODERN PRO ARABIC'; src: url("fonts/tanseek-modern-pro-arabic.ttf");}
+body{
+	margin: 0;
+	max-width: 100%;
+}
+.navbardiv{
+	display: flex;
+	background-color: black;
+	height: 120px;
+}
+.navbardiv .navbarps4{
+	align-items: flex-start;
+	align-self: center ;
+	margin: 11px auto 25px 23px;
+	
+}
+.navbardiv img{
+	width: 100%;
+	height: 100%;
+	
+}
+.nvright{
+	margin-left: auto;
+	align-self: center;
+	margin-right: 8px;
+}
+.nvright img{
+	height: 74px;
+	width: 264px;
+}
+.navimg{
+	margin-top:16px; 
+	margin-bottom: 16px; 
+	margin-left:8px;
+	margin-right:8px
+}
+.Intro{
+	background-color: #1A2888;
+	padding-bottom: 13px;
+}
+.titre{
+	font-family: PSBOLD;
+	font-size: 50px;
+	text-align: center;
+	margin: 0 auto auto auto;
+	color: #AEBFD4
+}
+.slogan{
+	font-family: PSOLD;
+	font-size: 30px;
+	text-align: center;
+}
+
+p, figcaption{
+	font-family: TANSEEK MODERN PRO ARABIC;
+	font-size: 25px;
+	color: white;
+    text-align: center;
+	
+}
+h3{
+	font-family: TANSEEK MODERN PRO ARABIC;
+	font-size: 30px;
+	color: white;
+}
+figcaption{
+	background-color: #2E393D;
+	max-width: 480px;
+}
+.colonnepro, .colonneslim {
+	float: left;
+	padding: 5px;
+  }
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+.TexteIntro__image{
+	float: right;
+}
+.TexteIntro__text{
+	display: inline;
+}
+#JE{
+	color: white;
+	font-family: TANSEEK MODERN PRO ARABIC;
+	font-size: 30px;
+	text-align: center;
+	top: 10px;}
+
+.b1{
+    position: absolute;
+    width: 100%;
+    height: 1460px;
+    top: px;
+    left: 0px;
+    background-color: #526879;
+}
+      
+.b2{
+    position: absolute;
+    width: 360px;
+    height: 1460px;
+    top: 0;
+    left: 0;
+      }
+      
+.b3{
+    position: absolute;
+    width: 1920px;
+    height: 860px;
+    top: 0;
+    left: 0;
+      }
+      .rectff7 {
+        position: absolute;
+        width: 288px;
+        height: 354px;
+        top: 142px;
+        left: 600px;
+        object-fit: cover;
+        padding-top: 25px;
+      }
+      
+    .recthzd {
+        position: absolute;
+        width: 288px;
+        height: 354px;
+        top: 138px;
+        left: 0;
+        object-fit: cover;
+        padding-top: 25px;
+      }
+      
+    .rectuc4 {
+        position: absolute;
+        width: 288px;
+        height: 354px;
+        top: 142px;
+        left: 350px;
+        object-fit: cover;
+        padding-top: 25px;
+      }
