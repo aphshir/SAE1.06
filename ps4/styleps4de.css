@@ -39,7 +39,7 @@ body{
 }
 .Intro{
 	background-color: #1A2888;
-	margin-bottom: -220px;
+	padding-bottom: 130px;
 }
 .titre{
 	font-family: PSBOLD;
@@ -56,9 +56,14 @@ body{
 
 p, figcaption{
 	font-family: TANSEEK MODERN PRO ARABIC;
-	font-size: 80px;
+	font-size: 75px;
 	color: white;
 	
+}
+h3{
+	font-family: TANSEEK MODERN PRO ARABIC;
+	font-size: 50px;
+	color: white;
 }
 figcaption{
 	background-color: #2E393D;
@@ -94,66 +99,196 @@ figcaption{
 #psslim{
 	max-width: 650px;
 }
-.Jeux{
-	background-color: #526879;
+.details, .details>p{
+	font-size: 35px;
+	font-family: TANSEEK MODERN PRO ARABIC;
+	text-align: center;
+	top: 1550px;
+	
 }
 #JE{
 	color: white;
 	font-family: TANSEEK MODERN PRO ARABIC;
-	font-size: 150px;
+	font-size: 50px;
+	text-align: center;
+	top: 10px;
+}
+.b1 {
+	position: absolute;
+	width: 1920px;
+	height: 946px;
+	top: 1914px;
+	left: 0px;
+	background-color: #526879;
+  }
+  
+.b2 {
+	position: absolute;
+	width: 1920px;
+	height: 942px;
+	top: 0;
+	left: 0;
+  }
+  
+.b3 {
+	position: absolute;
+	width: 1920px;
+	height: 860px;
+	top: 0;
+	left: 0;
+  }
+.rectff7 {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 142px;
+	left: 1266px;
+	object-fit: cover;
+	padding-top: 25px;
+  }
+  
+.recthzd {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 138px;
+	left: 0;
+	object-fit: cover;
+	padding-top: 25px;
+  }
+  
+.rectuc4 {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 142px;
+	left: 633px;
+	object-fit: cover;
+	padding-top: 25px;
+  }
+  
+  .hzd {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 856px;
+	left: 0;
+	background-color: #a4bcfc;
+  }
+  
+.txthzd {
+	position: absolute;
+	top: -20px;
+	left: 150px;
+  }
+  
+.ff7 {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 860px;
+	left: 1266px;
+	background-color: #a4bcfc;
+  }
+  
+.txtff7 {
+	position: absolute;
+	top: -20px;
+	left: 170px;
+  }
+  
+.uc4 {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 860px;
+	left: 633px;
+	background-color: #a4bcfc;
+  }
+  .txtuc4 {
+	position: absolute;
+	top: -20px;
+	left: 200px;
+  }
+.txtff7,.txthzd,.txtuc4{
+	font-family:  TANSEEK MODERN PRO ARABIC;
+	font-size: 35px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+}
+.b4 {
+	position: absolute;
+	width: 1920px;
+	height: 1275px;
+	top: 2860px;
+	left: 0;
+	background-color: #6D81B4;
+}
+  
+.titspecs {
+	color: white;
+	font-family: TANSEEK MODERN PRO ARABIC;
+	font-size: 70px;
+	text-align: center;
+	top: 10px;
+}
+  
+.b5 {
+	position: absolute;
+	width: 843px;
+	height: 734px;
+	top: 239px;
+	left: 1077px;
+  }
+  
+.rectchiffres {
+	position: absolute;
+	width: 700px;
+	height: 635px;
+	top: 0;
+	left: 55px;
+	background-color: #a4bcfc;
+  }
+  
+.detailspecs {
+	position: absolute;
+	width: 843px;
+	top: 10px;
+	left: 0;
+	font-family: TANSEEK MODERN PRO ARABIC;
+	font-size: 30px;
+	color: black;
 	text-align: center;
 }
-.FF7{
-    position: absolute;
-    width: 600px;
-    height: 748px;
-	top: 2269px;
-	left: 19px;
-    background-image: url('images/FF7.jpg');
-    background-size: cover;
-	background-color: #526879;
-    background-position: 50% 50%;
-}
-
-.rectff7{
-    position: absolute;
-    width: 600px;
-    height: 85px;
-	top:685px;
-    background-color: #a4bcfc;
-}
-.txtff7, .txtuc4, .txthzd{
-	color: black;
-	font-family: TANSEEK MODERN PRO ARABIC;
-    font-size: 50px;
-    text-align: center;
-}
-.txtff7{
-    position: relative;
-    top: 690px;
-    left: 3px;
-}
-
-.UC4{
+.spec{
 	position: absolute;
-	width: 600px;
-	height: 748px;
-	top: 2269px;
-	left: 644px;
-	background-image: url('images/UC4.jpg');
-	background-size: cover;
-	background-color: #526879;
-	background-position: 50% 50%;
+	width: 1031px;
+	height: 561px;
+	top: 239px;
+	left: 50px; 
 }
-.rectuc4{
+.rectadd {
 	position: absolute;
-	top: 685px;
-	height: 85px;
-	width: 600px;
-	background-color: #A4BCFC;
-}
-.txtuc4{
-	position: relative;
-	top: 690px;
-	left: 30px;
+	width: 1825px;
+	height: 167px;
+	top: 1000px;
+	background-color: #a4bcfc;
+  }
+  .txtspecs{
+	font-size: 30px;
+	text-align: center;
+	color: #000000;
+  }
+
+  .b6 {
+	position: absolute;
+	width: 1920px;
+	height: 150px;
+	top:4100px;
+	background-color: #1A2888;
+  }
+.limites{
+	font-size: 30px;
+	text-align: center;
 }
