@@ -66,7 +66,7 @@ img{
 	margin-top: -4vw;
 	color: white;
 	text-align: center;
-	font-size: 128px;
+	font-size: 11vw;
 	
 }
 /*deuxième div de la première partie (le vert qui est dans le gris)*/
@@ -92,25 +92,26 @@ img{
  	flex-direction: column;/*crée un flex en ligne*/
  	margin-left: 140px;
  	margin-right: 140px;
-	font-size: 1.5vw
+	font-size: 2vw;
+	text-align: center;
 
 }
 /*partie ou l'image est à droite*/
 .divpart2div2right{
 	display: flex; 
-	flex-direction: row; 
+	flex-direction: column-reverse; 
 	align-items: center; 
 	justify-content: center;
 	margin-bottom: 111px;
 }
 /*crée une marge à gauche*/
-.divpart2div2right img{
-	margin-left: 83px
+.divpart2div2right p{
+	margin-top: 40px
 }
 /*partie ou l'image est à gauche*/
 .divpart2div2left{
 	display: flex; 
-	flex-direction: row; 
+	flex-direction: column; 
 	align-items: center; 
 	justify-content: center;
 	margin-bottom: 111px;
@@ -118,112 +119,34 @@ img{
 }
 /*crée une marge à droite*/
 /**/
-.divpart2div2left img{
-	margin-right: 83px
+.divpart2div2left p{
+	margin-top: 40px
 }
 /*partie 3*/
-
 .div3{
 	background-color: #107C10;
 	text-align: center;
 	font-size: 64px;
-	padding: 6.666666666666667vw 20.193340494092375vh;
+	padding: 6.666666666666667vh 5.193340494092375vw
 }
-
 /* le div noir qui entoure l'image du jeu*/
-
 .gamecase{
 	background-color: black;
 	padding: 10px 10px 6px 10px;
 	color: white;
 	font-size: 36px;
+	margin-top: 3vh;
 	max-width: 400px;
 }
 
-
-/*défini la grille du display des jeux*/ 
+/*défini la le felx du display des jeux*/ 
 .grid{
-	display: grid;
-	grid-gap: 7vw 7vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content: center;
 }
-/*
-.gamecase img{
-	width: 100%;
-	height: 100%;
-}*/
-/* emplacement des jeux sur la grille
-__________
-|AA|AB|AC|
-|BA|BB|BC|
-----------
-*/
-@media (min-width:1201px){
-	.AA{
-		grid-column: 1;
-		grid-row: 1;
-	}
-	.AB{
-		grid-column: 2;
-		grid-row: 1;
-	}
-	.AC{
-		grid-column: 3;
-		grid-row: 1;
-	}
-	.BA{
-		grid-column: 1;
-		grid-row: 2;
-	}
-	.BB{
-		grid-column: 2;
-		grid-row: 2;
-	}
-	.BC{
-		grid-column: 3;
-		grid-row: 2;
-	}
-}
-@media (max-width:1710px){
-/*
--------	
-|AA|AB|	
-|AC|BA|
-|BB|BC|
--------
 
-*/
-	.div3{
-		padding: 6.666666666666667vw 5.193340494092375vh 6.666666666666667vw 20.193340494092375vh;
-	}
-	.gamecase{
-		padding: 10px 10px 6px 10px;
-		
-	}
-	.AA{
-		grid-column: 1;
-		grid-row: 1;
-	}
-	.AB{
-		grid-column: 2;
-		grid-row: 1;
-	}
-	.AC{
-		grid-column: 1;
-		grid-row: 2;
-	}
-	.BA{
-		grid-column: 2;
-		grid-row: 2;
-	}
-	.BB{
-		grid-column: 1;
-		grid-row: 3;
-	}
-	.BC{
-		grid-column: 2;
-		grid-row: 3;
-	}
-}
 
 /* défini le style du footer*/
 footer{
@@ -239,6 +162,6 @@ footer{
 .footdiv img{
 	display: block;
 	margin: auto;
-	width: 10%;
-	height: 10%;
+	width: 20%;
+	height: 20%;
 }
