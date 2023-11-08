@@ -8,7 +8,6 @@ body{
 	font-family: segoe UI;
 	max-width: 100%;
     overflow-x: hidden;
-    background-color:black;
 }
 
 .navbardiv{
@@ -47,4 +46,12 @@ body{
 	margin-bottom: 16px; 
 	margin-left:8px;
 	margin-right:23px
+}
+
+.main{
+	background-color: #aeb5c7;
+	display: flex;
+	width: 1200px;
+	height: 4251px;
+	position: relative;
 }
