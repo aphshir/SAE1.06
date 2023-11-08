@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	font-family: segoe UI;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+/*évite le surlignement sur les images*/
+img{
+	user-select: none;
+}
+/*div de la nav bar*/
+.navbardiv{
+	display: flex;
+	background-color: black;
+	height: 120px;
+}
+/*défini le flex à l'interieur de la navbar*/
+.navbardiv{
+	align-items: flex-start;
+	align-self: center
+	
+}
+/*taille des images de la navbar*/
+.navbardiv img{
+	width: 264px;
+	height: 74px;
+	
+}
+/*permet de forcer les éléments de la navbar sur la droite*/
+.nvright{
+	margin-left: auto;
+	align-self: center;
+	margin-right: 8px;
+}
+/*resize l'image à 100%*/
+.nvright img{
+	height: 100%;
+	width: 100%;
+}
+/*marges des images de la navbar*/
+.navimg{
+	margin-top:16px; 
+	margin-bottom: 16px; 
+	margin-left:8px;
+	margin-right:8px
+}
+/*resize l'image à 100%*/
+.navimg img{
+	height: 100%;
+	width: 100%;
+}
+
+.nvrightx img{
+    height: 30%;
+    width: 30%;
+    margin-right: 8px;
+    margin-left: auto;
+    align-self: center;
+    margin-top: 0px;
+}
+
+.main{
+	background-color: #22577A;
+	display: flex;
+	width: 1920px;
+	height: 3292px;
+	position: relative;
+}
+
+.titre{
+	position: absolute;
+	width: 1800px;
+	top: 35px;
+	left: 94px;
+	font-weight: 700;
+	color: white;
+	font-size: 128px;
+}
+
+.intro{
+    position: absolute;
+    width: 1290px;
+    height: 121px;
+    left: 315px;
+    color: white;
+    font-size: 32px;
+    top: 350px;
+    text-align: center;
+}
