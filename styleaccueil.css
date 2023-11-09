@@ -18,10 +18,9 @@ img{
 	height: 120px;
 }
 /*défini le flex à l'interieur de la navbar*/
-.navbardiv{
+.navbardiv .navbarxbox{
 	align-items: flex-start;
-	align-self: center
-	
+	align-self: center;
 }
 /*taille des images de la navbar*/
 .navbardiv img{
@@ -318,3 +317,9 @@ img{
 	left: 732px;
 	object-fit: cover;
   }
+
+  .imgautofit img{
+	height: 100%;
+	width: 100%;
+	user-select: none;
+}
