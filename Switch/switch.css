@@ -50,25 +50,32 @@ body{
 	background-color: red; 
 	margin: 0%;
 }
-.rouge .i img{
+.i  img{
 	width: 400px;
-	height: 140px
+	height: 140px;
 }
-.rouge .i1 img{
-	width: 760px;
-	height: 350px
+.i1 img{
+	width: 560px;
+	height: 350px;
+	background-color: #414141;
 }
-.rouge .i3 img{
+.i3  img{
 	width: 600px;
-	height: 745px
+	height: 745px;
+	
 }
+
 .bleu{
 	width: 50%;
 	float: right;
 	background-color: #20B8D2;
 	margin: 0%;
 }
-.bleu .t img{
+.i .bleu img{
 	width: 800px;
-	height: 140px
+	height: 140px;
 }
+p{
+	color : white;
+	background-color: #2A2A2A;
+	}
