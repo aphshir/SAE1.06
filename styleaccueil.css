@@ -267,3 +267,54 @@ img{
 	position: absolute;
 	object-fit: cover;
   }
+
+.div3 {
+	position: absolute;
+	width: 1920px;
+	height: 961px;
+	top: 2126px;
+	left: 0;
+	background-color: #57CC99;
+  }
+  
+.text {
+	position: absolute;
+	width: 1290px;
+	top: 248px;
+	left: 315px;
+	font-family: "Lexend", Helvetica;
+	font-weight: 400;
+	font-size: 32px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+.texttitre {
+	position: absolute;
+	top: 46px;
+	left: 610px;
+	font-family: "Lexend", Helvetica;
+	font-weight: 400;
+	font-size: 48px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+.logo-iut-metzfond{
+	position: absolute;
+	width: 1920px;
+	height: 205px;
+	top: 3087px;
+	left: 0;
+	background-color: #80ED99;
+  }
+  
+.logo-iut-metz {
+	position: absolute;
+	width: 455px;
+	height: 89px;
+	top: 58px;
+	left: 732px;
+	object-fit: cover;
+  }
