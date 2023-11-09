@@ -16,6 +16,8 @@ img{
 	display: flex;
 	background-color: black;
 	height: 120px;
+	justify-content: flex-end;
+	align-content: flex-end;
 }
 /*défini le flex à l'interieur de la navbar*/
 .navbardiv .navbarxbox{
@@ -26,14 +28,11 @@ img{
 .navbardiv img{
 	width: 264px;
 	height: 74px;
+
 	
 }
 /*permet de forcer les éléments de la navbar sur la droite*/
-.nvright{
-	margin-left: auto;
-	align-self: center;
-	margin-right: 8px;
-}
+
 /*resize l'image à 100%*/
 .nvright img{
 	height: 100%;
