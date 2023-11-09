@@ -1,3 +1,6 @@
+@font-face {font-family: XBOX Original; src: url('XboxOriginalBold-YzPYy.ttf');}
+@font-face {font-family: PS-Bold; src: url('PsBold-2Oy2w.ttf');}
+
 body{
 	margin: 0;
 	font-family: segoe UI;
@@ -87,3 +90,180 @@ img{
     top: 350px;
     text-align: center;
 }
+
+.rectangle1 {
+	position: absolute;
+	width: 1920px;
+	height: 1301px;
+	top: 825px;
+	left: 0;
+	background-color: #3BA3A5;
+  }
+  
+.titrerec1 {
+	position: absolute;
+	top: 67px;
+	left: 616px;
+	font-family: "Lexend", Helvetica;
+	font-weight: 400;
+	font-size: 48px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+.rec2 {
+	position: absolute;
+	width: 937px;
+	height: 901px;
+	top: 245px;
+	left: 496px;
+  }
+  
+ .rectangle {
+	position: absolute;
+	width: 927px;
+	height: 901px;
+	top: 0;
+	left: 0;
+	background-color: #22577A;
+  }
+  
+ .rectangle-2 {
+	position: absolute;
+	width: 807px;
+	height: 390px;
+	top: 466px;
+	left: 67px;
+	background-color: #57CC99;
+  }
+  
+.imgps5 {
+	position: absolute;
+	width: 300px;
+	height: 169px;
+	top: 620px;
+	left: 531px;
+	object-fit: cover;
+  }
+  
+.imgps4 {
+	position: absolute;
+	width: 300px;
+	height: 157px;
+	top: 632px;
+	left: 109px;
+	object-fit: cover;
+  }
+  
+.textps4 {
+	left: 120px;
+	white-space: nowrap;
+	position: absolute;
+	top: 551px;
+	font-family: "PS-Bold", Helvetica;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+.textps5 {
+	width: 488px;
+	left: 449px;
+	position: absolute;
+	top: 551px;
+	font-family: "PS-Bold", Helvetica;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+.textsony {
+	position: absolute;
+	top: 476px;
+	left: 358px;
+	font-family: "PS-BOld", Helvetica;
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+  
+.rectangle-3 {
+	position: absolute;
+	width: 386px;
+	height: 386px;
+	top: 35px;
+	left: 67px;
+	background-color: #80ED99;
+  }
+  
+.imagexbox {
+	width: 306px;
+	height: 139px;
+	top: 228px;
+	left: 107px;
+	position: absolute;
+	object-fit: cover;
+  }
+  
+.xbox {
+	position: absolute;
+	top: 89px;
+	left: 178px;
+	font-family: "Lexend", Helvetica;
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+.titrexbox {
+	font-family: "Lexend", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 36px;
+	letter-spacing: 0;
+  }
+  
+.titrexbox2 {
+	font-family: "XBOX Original", Helvetica;
+	font-weight: 700;
+  }
+  
+.rectangle-4 {
+	position: absolute;
+	width: 386px;
+	height: 386px;
+	top: 35px;
+	left: 488px;
+	background-color: #C7F9CC;
+  }
+  
+.nintendo-switch {
+	position: absolute;
+	top: 80px;
+	left: 600px;
+	font-family: "Lexend", Helvetica;
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+  
+.imageswitch {
+	width: 280px;
+	height: 130px;
+	top: 228px;
+	left: 541px;
+	position: absolute;
+	object-fit: cover;
+  }
