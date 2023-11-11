@@ -64,6 +64,9 @@ body {
 .transparant .petit{
 	width: 35%
 }
-a{
-	color:#a94a44
+.rouge a{
+	color:#007599
+}
+.transparant a{
+	color: #00c5ff
 }
