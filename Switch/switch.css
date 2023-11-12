@@ -1,9 +1,7 @@
 body{
 	margin: 0;
-	padding: 0;
-	font-family: segoe UI;
 	max-width: 100%;
-    	overflow-x: hidden;
+    overflow-x: hidden;
 }
 .navbardiv{
 	display: flex;
@@ -44,38 +42,118 @@ body{
 	height: 74px;
 	width: 74px;
 }
-.rouge{
+.i .rouge{
 	width: 50%;
-	float: left;
-	background-color: red; 
-	margin: 0%;
+	height: 100%
 }
 .i  img{
-	width: 400px;
-	height: 140px;
+	width: 90%;
+	height: 90%;
+	margin-top: 2%;
+	margin-bottom
 }
-.i1 img{
-	width: 560px;
-	height: 350px;
+.i1 .rouge{
+	width: 50%;
+	height: 100%;
 	background-color: #414141;
 }
-.i3  img{
-	width: 600px;
-	height: 745px;
-	
+.i1 .rouge img{
+	width: 80%;
+	height: 80%;
+	margin: 5% 5%;
 }
-
-.bleu{
+.i2 .rouge{
+	background-color: #414141;
 	width: 50%;
-	float: right;
-	background-color: #20B8D2;
-	margin: 0%;
+}
+.i2 .rouge p{
+	color : white;
+	font-size: 187%;
+	text-align: right;
+}
+.i3 .rouge {
+	background-color: #414141;
+	width: 50%;
+	height: 100%;
+}
+.i3 img{
+	width: 60%;
+	height: 90%;
+	margin: 4% 20% ;
+}
+.i .bleu{
+	width: 50%;
 }
 .i .bleu img{
-	width: 800px;
-	height: 140px;
+	width: 100%;
+	height: 120%;
+	display: block;
+	margin: auto;
 }
-p{
-	color : white;
+.i1 .bleu{
 	background-color: #2A2A2A;
-	}
+	width: 50%;
+	height: 100%;
+}
+.i1 .bleu p{
+	color : white;
+	width: 80%;
+	height: 80%;
+	margin: 10% 10%;
+	font-size: 187%;
+}	
+.i2 .bleu{
+	background-color: #2A2A2A;
+	width: 50%;
+}
+.i2 .bleu p{
+	color : white;
+	font-size: 187%; 
+}
+.i3 .bleu{
+	background-color: #2A2A2A;
+	width: 50%;
+	height: 100%;
+}
+.i3 .bleu p{
+	color : white;
+	font-size: 187%; 
+	text-align: center;
+	margin: 25%;
+}
+.i {
+	align-items: center;
+	display: flex;
+	margin-left: 10%;
+	width: 80%;
+	height: 8%;	
+	margin-bottom; 5%;
+}	
+.i1 {
+	align-items: center;
+	display: flex;
+	margin: 1% 10%;
+	width: 80%;
+	height: 11%;
+}
+.i2 {
+	align-items: center;
+	display: flex;
+	margin: 7% 35%;
+	width: 30%;
+	height: 1%;
+}
+.i3 {
+	align-items: center;
+	display: flex;
+	margin: 1% 10%;
+	width: 80%;
+	height: 15%;
+}
+.body2 {
+	width: 1900px;  
+	height: 3000px;
+	background-image: url("images/2p.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
