@@ -4,6 +4,7 @@
 body{
 	margin: 0;
 	max-width: 100%;
+	overflow-x: hidden;
 }
 .navbardiv{
 	display: flex;
@@ -11,7 +12,6 @@ body{
 	height: 120px;
 }
 .navbardiv .navbarps4{
-	align-items: flex-start;
 	align-self: center ;
 	margin: 11px auto 25px 23px;
 	
