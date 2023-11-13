@@ -50,7 +50,6 @@ body{
 	width: 90%;
 	height: 90%;
 	margin-top: 2%;
-	margin-bottom
 }
 .i1 .rouge{
 	width: 50%;
@@ -58,9 +57,9 @@ body{
 	background-color: #414141;
 }
 .i1 .rouge img{
-	width: 80%;
+	width: 60%;
 	height: 80%;
-	margin: 5% 5%;
+	margin: 5% 21%;
 }
 .i2 .rouge{
 	background-color: #414141;
@@ -77,9 +76,9 @@ body{
 	height: 100%;
 }
 .i3 img{
-	width: 60%;
+	width: 40%;
 	height: 90%;
-	margin: 4% 20% ;
+	margin: 4% 30% ;
 }
 .i .bleu{
 	width: 50%;
@@ -96,11 +95,11 @@ body{
 	height: 100%;
 }
 .i1 .bleu p{
-	color : white;
 	width: 80%;
 	height: 80%;
 	margin: 10% 10%;
 	font-size: 187%;
+	color: white;
 }	
 .i2 .bleu{
 	background-color: #2A2A2A;
@@ -116,7 +115,7 @@ body{
 	height: 100%;
 }
 .i3 .bleu p{
-	color : white;
+	color: white;
 	font-size: 187%; 
 	text-align: center;
 	margin: 25%;
@@ -127,7 +126,7 @@ body{
 	margin-left: 10%;
 	width: 80%;
 	height: 8%;	
-	margin-bottom; 5%;
+	margin-bottom: 5%;
 }	
 .i1 {
 	align-items: center;
