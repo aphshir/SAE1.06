@@ -76,7 +76,7 @@ img{
 	padding: 104px 50px 104px 80px ;
 	text-align: start;
 	margin-top: 84px;
-	font-size: 2vw;/*limite la taille de la police à la taille de l'écran*/
+	font-size: 2.5vw;/*limite la taille de la police à la taille de l'écran*/
 	hyphens: manual;/*permet de briser les mots et d'ajouter des tirerts afin de le lier à la prochaine ligne*/
 }
 /*paramètre de l'image de l'xbox*/
@@ -92,7 +92,7 @@ img{
  	flex-direction: column;/*crée un flex en ligne*/
  	margin-left: 140px;
  	margin-right: 140px;
-	font-size: 2vw;
+	font-size: 3vw;
 	text-align: center;
 
 }
