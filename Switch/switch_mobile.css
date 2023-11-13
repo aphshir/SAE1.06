@@ -44,11 +44,13 @@ body{
 }
 .i .rouge{
 	width: 50%;
+	height: 100%
 }
 .i  img{
 	width: 90%;
-	height: 100%;
-	margin-left: 5%;
+	height: 90%;
+	margin-top: 2%;
+	margin-bottom
 }
 .i1 .rouge{
 	width: 50%;
@@ -58,7 +60,7 @@ body{
 .i1 .rouge img{
 	width: 80%;
 	height: 80%;
-	margin: 15% 5%;
+	margin: 5% 5%;
 }
 .i2 .rouge{
 	background-color: #414141;
@@ -74,10 +76,10 @@ body{
 	width: 50%;
 	height: 100%;
 }
-.i3  img{
+.i3 img{
 	width: 60%;
 	height: 90%;
-	margin: 10% 20% ;
+	margin: 4% 20% ;
 }
 .i .bleu{
 	width: 50%;
@@ -97,7 +99,7 @@ body{
 	color : white;
 	width: 80%;
 	height: 80%;
-	margin: 15% 15%;
+	margin: 10% 10%;
 	font-size: 100%;
 }	
 .i2 .bleu{
@@ -117,38 +119,39 @@ body{
 	color : white;
 	font-size: 100%; 
 	text-align: center;
-	margin-top: 80%;
+	margin: 25%;
 }
 .i {
 	align-items: center;
 	display: flex;
 	margin-left: 10%;
 	width: 80%;
-	height: 10%;
-}		
+	height: 8%;	
+	margin-bottom; 5%;
+}	
 .i1 {
 	align-items: center;
 	display: flex;
-	margin: 5% 10%;
+	margin: 1% 10%;
 	width: 80%;
 	height: 11%;
 }
 .i2 {
 	align-items: center;
 	display: flex;
-	margin: 7% 25%;
-	width: 50%;
+	margin: 7% 30%;
+	width: 40%;
 	height: 1%;
 }
 .i3 {
 	align-items: center;
 	display: flex;
-	margin: 5% 10%;
+	margin: 1% 10%;
 	width: 80%;
 	height: 15%;
 }
 .body2 {
-	width: 360px;  
+	width: 100%;  
 	height: 2000px;
 	background-image: url("images/2p.png");
 	background-repeat: no-repeat;
