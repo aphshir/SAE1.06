@@ -2,20 +2,12 @@
 	font-family: PS-Bold;
 	src: url(fonts/PsBold-2Oy2w.ttf);
 }
-
 body{
 	margin: 0;
 	font-family: segoe UI;
 	max-width: 100%;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
-
-.navbardiv{
-	display: flex;
-	background-color: rgb(255, 255, 255);
-	height: 120px;
-}
-
 .navbardiv{
 	display: flex;
 	background-color: rgb(255, 255, 255);
@@ -24,7 +16,7 @@ body{
 .navbardiv .navbarps5{
 	align-items: flex-start;
 	align-self: center ;
-	margin: 11px auto 5px 5px;
+	margin: 11px auto 25px 23px;
 	
 }
 .navbardiv img{
@@ -35,7 +27,7 @@ body{
 .nvright{
 	margin-left: auto;
 	align-self: center;
-	margin-right: 25px;
+	margin-right: 8px;
 }
 .nvright img{
 	height: 74px;
@@ -45,13 +37,377 @@ body{
 	margin-top:16px; 
 	margin-bottom: 16px; 
 	margin-left:8px;
-	margin-right:23px
+	margin-right:8px
 }
 
 .main{
 	background-color: #aeb5c7;
 	display: flex;
-	width: 1200px;
+	width: 1920px;
 	height: 4251px;
 	position: relative;
 }
+
+.firsttitre{
+	position: absolute;
+	width: 326px;
+	top: 20px;
+	left: 29px;
+	font-family: "PS-Bold", Helvetica;
+	font-weight: 700;
+	color: black;
+	font-size: 25px;
+}
+
+.ps5debout{
+	position: absolute;
+	width: 240px;
+	height: 147px;
+	top: 73px;
+	left: 0px; 
+}
+
+.slogan{
+	position: absolute;
+	width: 196px;
+	top: 132px;
+	left: 180px;
+	font-family: "PS-Bold", Helvetica;
+	font-weight: 700;
+	color: black;
+	font-size: 20px;
+}
+
+.rectangle-1{
+	position: absolute;
+	width: 1920px;
+	height: 693px;
+	top: 320px;
+	background-color: #6d81b4;
+}
+
+.titredetails{
+	position: absolute;
+	width: 284px;
+	top: 330px;
+	left: 50px;
+	font-weight: 400;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+
+.textdetails{
+	position: absolute;
+	width: 346px;
+	top: 430px;
+	left: 50px;
+	font-weight: 400;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+
+.shcase{
+	position: absolute;
+	width: 322px;
+	height: 265px;
+	top: 1050px;
+	left: 50px;
+	background-image: url(./images/showcase.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.rectangle-2{
+	position: absolute;
+	width: 322px;
+	height: 78px;
+	top: 190px;
+	left: 50;
+	background-color: #a4bcfc;
+}
+
+.textshcase{
+	position: absolute;
+	top: 190px;
+	left: 95px;
+	font-weight: 400px;
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
+
+.sortie {
+	position: absolute;
+	width: 322px;
+	height: 265px;
+	top: 1350px;
+	left: 50px;
+	background-image: url(images/sortie.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.textsortie {
+	position: absolute;
+	top: 190px;
+	left: 50px;
+	font-weight: 400;
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+}
+
+.boite {
+	position: absolute;
+	width: 1920px;
+	height: 1038px;
+	top: 1634px;
+	left: 0;
+	background-color: #6d81b4;
+}
+  
+.specifications {
+	position: absolute;
+	width: 326px;
+	top: 39px;
+	left: 50px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 40px;
+	text-align: center;
+}
+  
+.boite2 {
+	position: absolute;
+	width: 322px;
+	height:401px;
+	top: 450px;
+	left: 50px;
+  }
+  
+.rectangle-3 {
+	position: absolute;
+	width: 322px;
+	height: 401px;
+	top: 0;
+	left: 0px;
+	background-color: #a4bcfc;
+  }
+  
+.titrechiffres {
+	position: absolute;
+	top: 89px;
+	left: 210px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 50px;
+	text-align: center;
+}
+  
+.detailspecs {
+	position: absolute;
+	width: 843px;
+	top: 206px;
+	left: 0;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 35px;
+	text-align: center;
+}
+  
+.boite3 {
+	position: absolute;
+	width: 1825px;
+	height: 174px;
+	top: 1056px;
+	left: 40px;
+  }
+  
+.rectangle-4 {
+	position: absolute;
+	width: 1825px;
+	height: 167px;
+	top: 0;
+	left: 0;
+	background-color: #a4bcfc;
+  }
+  
+.textconcluspec {
+	position: absolute;
+	width: 1825px;
+	top:0px;
+	left: 0;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 35px;
+	text-align: center;
+  }
+
+  .spec{
+	position: absolute;
+	width: 326px;
+	height: 250px;
+	top: 170px;
+	left: 50px; 
+}
+
+.boite4 {
+	position: absolute;
+	width: 1866px;
+	height: 946px;
+	top: 2929px;
+	left: 27px;
+  }
+  
+.boite5 {
+	position: absolute;
+	width: 1866px;
+	height: 942px;
+	top: 0;
+	left: 0;
+  }
+  
+.boite6 {
+	position: absolute;
+	width: 1866px;
+	height: 860px;
+	top: 0;
+	left: 0;
+  }
+  
+.titrejeux {
+	position: absolute;
+	width: 905px;
+	top: 0;
+	left: 480px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 70px;
+	text-align: center;
+  }
+  
+.rectangle-6 {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 142px;
+	left: 1266px;
+	object-fit: cover;
+  }
+  
+.rectangle-7 {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 138px;
+	left: 0;
+	object-fit: cover;
+  }
+  
+.rectangle-8 {
+	position: absolute;
+	width: 600px;
+	height: 718px;
+	top: 142px;
+	left: 633px;
+	object-fit: cover;
+  }
+  
+.horizon {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 856px;
+	left: 0;
+	background-color: #a4bcfc;
+  }
+  
+.texthorizon {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 35px;
+	text-align: center;
+  }
+  
+.ff {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 860px;
+	left: 1266px;
+	background-color: #a4bcfc;
+  }
+  
+.textff {
+	position: absolute;
+	top: 0px;
+	left: 70px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 31px;
+	text-align: center;
+  }
+  
+.spman {
+	position: absolute;
+	width: 600px;
+	height: 86px;
+	top: 860px;
+	left: 633px;
+	background-color: #a4bcfc;
+  }
+  
+.textspman {
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 33px;
+	text-align: center;
+  }
+
+.boite8 {
+	position: absolute;
+	width: 1920px;
+	height: 326px;
+	top: 3925px;
+	left: 0;
+	background-color: #6d81b4;
+  }
+  
+.titrelimites {
+	position: absolute;
+	top: 12px;
+	left: 611px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 70px;
+	text-align: center;;
+  }
+  
+.textlimites {
+	position: absolute;
+	top: 131px;
+	left: 16px;
+	font-family: "Inter", Helvetica;
+	font-weight: 400;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+  }
+  
