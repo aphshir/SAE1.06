@@ -4,6 +4,7 @@
 body{
 	margin: 0;
 	max-width: 100%;
+	overflow-x: hidden;
 }
 .navbardiv{
 	display: flex;
@@ -14,7 +15,6 @@ body{
 	align-items: flex-start;
 	align-self: center ;
 	margin: 11px auto 25px 23px;
-	
 }
 .navbardiv img{
 	width: 100%;
