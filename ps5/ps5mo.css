@@ -44,7 +44,7 @@ body{
 	background-color: #aeb5c7;
 	display: flex;
 	width: 1920px;
-	height: 4251px;
+	height: 6000px;
 	position: relative;
 }
 
@@ -162,7 +162,7 @@ body{
 .boite {
 	position: absolute;
 	width: 1920px;
-	height: 1038px;
+	height: 1238px;
 	top: 1634px;
 	left: 0;
 	background-color: #6d81b4;
@@ -199,8 +199,8 @@ body{
   
 .titrechiffres {
 	position: absolute;
-	top: 89px;
-	left: 210px;
+	top: 15	px;
+	left: 20px;
 	font-family: "Inter", Helvetica;
 	font-weight: 400;
 	color: #000000;
@@ -210,42 +210,42 @@ body{
   
 .detailspecs {
 	position: absolute;
-	width: 843px;
-	top: 206px;
-	left: 0;
+	width: 300px;
+	top: 115px;
+	left: 15px;
 	font-family: "Inter", Helvetica;
 	font-weight: 400;
 	color: #000000;
-	font-size: 35px;
+	font-size: 20px;
 	text-align: center;
 }
   
 .boite3 {
 	position: absolute;
-	width: 1825px;
+	width: 322px;
 	height: 174px;
-	top: 1056px;
+	top: 850px;
 	left: 40px;
   }
   
 .rectangle-4 {
 	position: absolute;
-	width: 1825px;
+	width: 322x;
 	height: 167px;
-	top: 0;
+	top: 0px;
 	left: 0;
 	background-color: #a4bcfc;
   }
   
 .textconcluspec {
 	position: absolute;
-	width: 1825px;
+	width: 322px;
 	top:0px;
-	left: 0;
+	left: 0px;
 	font-family: "Inter", Helvetica;
 	font-weight: 400;
 	color: #000000;
-	font-size: 35px;
+	font-size: 25px;
 	text-align: center;
   }
 
@@ -259,71 +259,55 @@ body{
 
 .boite4 {
 	position: absolute;
-	width: 1866px;
+	width: 400px;
 	height: 946px;
-	top: 2929px;
+	top: 2890px;
 	left: 27px;
-  }
-  
-.boite5 {
-	position: absolute;
-	width: 1866px;
-	height: 942px;
-	top: 0;
-	left: 0;
-  }
-  
-.boite6 {
-	position: absolute;
-	width: 1866px;
-	height: 860px;
-	top: 0;
-	left: 0;
   }
   
 .titrejeux {
 	position: absolute;
-	width: 905px;
+	width: 300px;
 	top: 0;
-	left: 480px;
+	left: 30px;
 	font-family: "Inter", Helvetica;
 	font-weight: 400;
 	color: #000000;
-	font-size: 70px;
+	font-size: 50px;
 	text-align: center;
   }
   
 .rectangle-6 {
 	position: absolute;
-	width: 600px;
+	width: 400px;
 	height: 718px;
-	top: 142px;
-	left: 1266px;
+	top: 1850px;
+	left: 0px;
 	object-fit: cover;
   }
   
 .rectangle-7 {
 	position: absolute;
-	width: 600px;
+	width: 400px;
 	height: 718px;
-	top: 138px;
+	top: 150px;
 	left: 0;
 	object-fit: cover;
   }
   
 .rectangle-8 {
 	position: absolute;
-	width: 600px;
+	width: 400px;
 	height: 718px;
-	top: 142px;
-	left: 633px;
+	top: 1000px;
+	left: 0px;
 	object-fit: cover;
   }
   
 .horizon {
 	position: absolute;
-	width: 600px;
-	height: 86px;
+	width: 400px;
+	height: 120px;
 	top: 856px;
 	left: 0;
 	background-color: #a4bcfc;
@@ -342,17 +326,17 @@ body{
   
 .ff {
 	position: absolute;
-	width: 600px;
-	height: 86px;
-	top: 860px;
-	left: 1266px;
+	width: 400px;
+	height: 120px;
+	top: 2565px;
+	left: 0px;
 	background-color: #a4bcfc;
   }
   
 .textff {
 	position: absolute;
 	top: 0px;
-	left: 70px;
+	left: 0px;
 	font-family: "Inter", Helvetica;
 	font-weight: 400;
 	color: #000000;
@@ -362,10 +346,10 @@ body{
   
 .spman {
 	position: absolute;
-	width: 600px;
-	height: 86px;
-	top: 860px;
-	left: 633px;
+	width: 400px;
+	height: 120px;
+	top: 1700px;
+	left: 0px;
 	background-color: #a4bcfc;
   }
   
@@ -383,31 +367,33 @@ body{
 .boite8 {
 	position: absolute;
 	width: 1920px;
-	height: 326px;
-	top: 3925px;
+	height: 500px;
+	top: 5600px;
 	left: 0;
 	background-color: #6d81b4;
   }
   
 .titrelimites {
 	position: absolute;
+	width: 322;
 	top: 12px;
-	left: 611px;
+	left: 35px;
 	font-family: "Inter", Helvetica;
 	font-weight: 400;
 	color: #000000;
-	font-size: 70px;
+	font-size: 40px;
 	text-align: center;;
   }
   
 .textlimites {
 	position: absolute;
-	top: 131px;
-	left: 16px;
+	width: 322px;
+	top: 100px;
+	left: 60px;
 	font-family: "Inter", Helvetica;
 	font-weight: 400;
 	color: #000000;
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
   }
   
